@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "travel_agencies",
+  "info": {
+    "singularName": "travel-agency",
+    "pluralName": "travel-agencies",
+    "displayName": "Travel_Agency"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Travel_Agency_Details": {
+      "type": "text"
+    }
+  }
+}

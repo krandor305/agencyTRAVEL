@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Description": {
+      "type": "richtext"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "Vol",
+        "Voiture",
+        "Hotel",
+        "Restaurant",
+        "Autre"
+      ]
+    },
+    "ActualDescription": {
+      "type": "richtext"
+    },
+    "MainPicture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Carousel": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Price": {
+      "type": "decimal"
+    },
+    "DateDebut": {
+      "type": "datetime"
+    },
+    "DateFin": {
+      "type": "datetime"
+    },
+    "Coordinates": {
+      "type": "json"
+    }
+  }
+}

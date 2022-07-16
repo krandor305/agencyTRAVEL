@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "assets",
+  "info": {
+    "singularName": "asset",
+    "pluralName": "assets",
+    "displayName": "Asset",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ForeignId": {
+      "type": "biginteger"
+    },
+    "ForeignObject": {
+      "type": "enumeration",
+      "enum": [
+        "User",
+        "Service",
+        "Event"
+      ]
+    },
+    "Ordre": {
+      "type": "integer"
+    },
+    "Media": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ref_booking_outcomes",
+  "info": {
+    "singularName": "ref-booking-outcome",
+    "pluralName": "ref-booking-outcomes",
+    "displayName": "Ref_Booking_Outcome"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Description": {
+      "type": "text"
+    },
+    "Canceled": {
+      "type": "boolean"
+    }
+  }
+}

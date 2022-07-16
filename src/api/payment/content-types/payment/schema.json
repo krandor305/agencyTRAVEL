@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payments",
+  "info": {
+    "singularName": "payment",
+    "pluralName": "payments",
+    "displayName": "Payment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BookingId": {
+      "type": "biginteger",
+      "required": true
+    },
+    "payment_Date": {
+      "type": "datetime"
+    },
+    "other_Details": {
+      "type": "text"
+    }
+  }
+}

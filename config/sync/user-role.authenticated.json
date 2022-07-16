@@ -1,0 +1,121 @@
+{
+  "name": "Authenticated",
+  "description": "Default role given to authenticated user.",
+  "type": "authenticated",
+  "permissions": [
+    {
+      "action": "api::adress.adress.create"
+    },
+    {
+      "action": "api::adress.adress.delete"
+    },
+    {
+      "action": "api::adress.adress.find"
+    },
+    {
+      "action": "api::adress.adress.findOne"
+    },
+    {
+      "action": "api::adress.adress.update"
+    },
+    {
+      "action": "api::booking.booking.create"
+    },
+    {
+      "action": "api::booking.booking.delete"
+    },
+    {
+      "action": "api::booking.booking.find"
+    },
+    {
+      "action": "api::booking.booking.findOne"
+    },
+    {
+      "action": "api::booking.booking.update"
+    },
+    {
+      "action": "api::customer-adresses.customer-adresses.create"
+    },
+    {
+      "action": "api::customer-adresses.customer-adresses.delete"
+    },
+    {
+      "action": "api::customer-adresses.customer-adresses.find"
+    },
+    {
+      "action": "api::customer-adresses.customer-adresses.findOne"
+    },
+    {
+      "action": "api::customer-adresses.customer-adresses.update"
+    },
+    {
+      "action": "api::payment.payment.create"
+    },
+    {
+      "action": "api::payment.payment.delete"
+    },
+    {
+      "action": "api::payment.payment.find"
+    },
+    {
+      "action": "api::payment.payment.findOne"
+    },
+    {
+      "action": "api::payment.payment.update"
+    },
+    {
+      "action": "api::ref-booking-outcome.ref-booking-outcome.find"
+    },
+    {
+      "action": "api::ref-booking-outcome.ref-booking-outcome.findOne"
+    },
+    {
+      "action": "api::ref-booking-status.ref-booking-status.find"
+    },
+    {
+      "action": "api::ref-booking-status.ref-booking-status.findOne"
+    },
+    {
+      "action": "api::service-booking.service-booking.create"
+    },
+    {
+      "action": "api::service-booking.service-booking.delete"
+    },
+    {
+      "action": "api::service-booking.service-booking.find"
+    },
+    {
+      "action": "api::service-booking.service-booking.findOne"
+    },
+    {
+      "action": "api::service-booking.service-booking.update"
+    },
+    {
+      "action": "api::service.service.find"
+    },
+    {
+      "action": "api::travel-agency.travel-agency.create"
+    },
+    {
+      "action": "api::travel-agency.travel-agency.delete"
+    },
+    {
+      "action": "api::travel-agency.travel-agency.find"
+    },
+    {
+      "action": "api::travel-agency.travel-agency.findOne"
+    },
+    {
+      "action": "api::travel-agency.travel-agency.update"
+    },
+    {
+      "action": "plugin::users-permissions.auth.connect"
+    },
+    {
+      "action": "plugin::users-permissions.user.me"
+    },
+    {
+      "action": "plugin::users-permissions.user.update"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ref_booking_statuses",
+  "info": {
+    "singularName": "ref-booking-status",
+    "pluralName": "ref-booking-statuses",
+    "displayName": "Ref_Booking_Status",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}
