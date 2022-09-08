@@ -1,0 +1,4 @@
+npm run build
+git add .
+git commit -m "Updated Yarn lockfile"
+git push heroku HEAD:main
